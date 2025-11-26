@@ -16,10 +16,16 @@ cheese-inspection/
 │   ├── train/
 │   └── val/
 ├── models/                     # GENERATED - saved models
+├── results/                    # GENERATED - evaluation reports
+│   ├── predictions.csv
+│   ├── errors.csv
+│   ├── label_studio_import.json
+│   └── summary.json
 ├── scripts/
 │   ├── split_data.py          # Split images into train/val
 │   ├── train.py               # Training script
-│   └── inference.py           # Run predictions
+│   ├── inference.py           # Run predictions
+│   └── evaluate.py            # Evaluate model & export reports
 ├── api/
 │   ├── main.py                # FastAPI server
 │   └── requirements.txt       # API dependencies
@@ -80,7 +86,53 @@ python scripts/inference.py --model models/best_model.pth --image test.jpg
 
 # Gradio demo
 python app.py
+
+# FastAPI server
+uvicorn api.main:app --reload
+# Visit http://localhost:8000/docs
 ```
+
+### 5. Evaluate & Review
+
+Evaluate model performance and export results for review:
+
+```bash
+# Run evaluation on your images
+python scripts/evaluate.py --model models/best_model.pth --images images/ --output results/
+```
+
+**Outputs:**
+- `results/predictions.csv` - All predictions with confidence scores
+- `results/errors.csv` - Only incorrect predictions for quick review
+- `results/label_studio_import.json` - Import into Label Studio for corrections
+- `results/summary.json` - Overall and per-class accuracy statistics
+
+**Label Studio Workflow:**
+
+1. **Run evaluation** to get predictions:
+   ```bash
+   python scripts/evaluate.py
+   ```
+
+2. **Import into Label Studio:**
+   - Create new project in Label Studio
+   - Set up image classification task
+   - Import `results/label_studio_import.json`
+   - Model predictions will be pre-filled for quick review
+
+3. **Review and correct:**
+   - Review images where model was wrong (check `results/errors.csv`)
+   - Correct predictions in Label Studio
+   - Export corrected labels
+
+4. **Retrain with corrections:**
+   - Move images to correct class folders based on corrections
+   - Re-run training pipeline to improve model
+
+This workflow helps you:
+- Find and fix labeling errors
+- Identify challenging images
+- Improve model accuracy iteratively
 
 ---
 
