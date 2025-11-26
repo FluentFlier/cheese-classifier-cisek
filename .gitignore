@@ -31,6 +31,10 @@ datasets/
 images/
 annotations/
 
+# Results
+results/
+!results/.gitkeep
+
 # Models
 *.pth
 *.pt
