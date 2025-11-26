@@ -1,67 +1,107 @@
 #!/usr/bin/env python3
 """
-Gradio app for Teachable Machine Keras model.
+Gradio demo app for cheese classifier.
 
 Usage:
-    1. Put keras_model.h5 and labels.txt in same folder
-    2. pip install gradio tensorflow tf-keras pillow
-    3. python app.py
+    python app.py
+    python app.py --model models/best_model.pth
 """
 
+import argparse
+from pathlib import Path
+
 import gradio as gr
-from tf_keras.models import load_model
-from PIL import Image, ImageOps
+import torch
+import torch.nn.functional as F
+from torchvision import transforms, models
+from PIL import Image
 import numpy as np
 
-np.set_printoptions(suppress=True)
 
-# Load model and labels
-print("Loading model...")
-model = load_model("keras_model.h5", compile=False)
-
-print("Loading labels...")
-class_names = open("labels.txt", "r").readlines()
-print(f"Classes: {[c.strip() for c in class_names]}")
+def get_device():
+    if torch.cuda.is_available():
+        return torch.device('cuda')
+    elif torch.backends.mps.is_available():
+        return torch.device('mps')
+    return torch.device('cpu')
 
 
-def predict(image):
-    """Run prediction on uploaded image."""
-    if image is None:
-        return {}
+def load_model(model_path: str):
+    """Load model for inference."""
+    device = get_device()
+    checkpoint = torch.load(model_path, map_location=device)
     
-    # Create array for model
-    data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
+    class_names = checkpoint.get('class_names', [])
+    config = checkpoint.get('config', {})
+    img_size = config.get('model', {}).get('img_size', 224)
     
-    # Convert and resize
-    image = Image.fromarray(image).convert("RGB")
-    size = (224, 224)
-    image = ImageOps.fit(image, size, Image.Resampling.LANCZOS)
+    model = models.efficientnet_b0(weights=None)
+    in_features = model.classifier[1].in_features
+    model.classifier = torch.nn.Sequential(
+        torch.nn.Dropout(p=0.3, inplace=True),
+        torch.nn.Linear(in_features, len(class_names))
+    )
     
-    # Normalize to [-1, 1] (Teachable Machine format)
-    image_array = np.asarray(image)
-    normalized_image_array = (image_array.astype(np.float32) / 127.5) - 1
-    data[0] = normalized_image_array
+    model.load_state_dict(checkpoint['model_state_dict'])
+    model = model.to(device)
+    model.eval()
     
-    # Predict
-    prediction = model.predict(data, verbose=0)[0]
+    transform = transforms.Compose([
+        transforms.Resize((img_size, img_size)),
+        transforms.ToTensor(),
+        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+    ])
     
-    # Return as dict for Gradio
-    results = {}
-    for i, class_name in enumerate(class_names):
-        label = class_name.strip().split(" ", 1)[-1] if " " in class_name else class_name.strip()
-        results[label] = float(prediction[i])
-    
-    return results
+    return model, class_names, transform, device
 
 
-# Create Gradio interface
-demo = gr.Interface(
-    fn=predict,
-    inputs=gr.Image(label="Upload Image"),
-    outputs=gr.Label(num_top_classes=len(class_names), label="Prediction"),
-    title="Cheese Classifier",
-    description="Upload an image to classify",
-)
+def create_app(model_path: str):
+    """Create Gradio app."""
+    print(f"Loading model from {model_path}...")
+    model, class_names, transform, device = load_model(model_path)
+    print(f"Classes: {class_names}")
+    
+    def predict(image):
+        if image is None:
+            return {}
+        
+        image = Image.fromarray(image).convert('RGB')
+        input_tensor = transform(image).unsqueeze(0).to(device)
+        
+        with torch.no_grad():
+            outputs = model(input_tensor)
+            probs = F.softmax(outputs, dim=1)
+        
+        return {class_names[i]: float(probs[0, i]) for i in range(len(class_names))}
+    
+    demo = gr.Interface(
+        fn=predict,
+        inputs=gr.Image(label="Upload Image"),
+        outputs=gr.Label(num_top_classes=len(class_names), label="Prediction"),
+        title="Cheese Classifier",
+        description="Upload an image to classify cheese type",
+        examples=None,
+    )
+    
+    return demo
 
-if __name__ == "__main__":
-    demo.launch()
+
+def main():
+    parser = argparse.ArgumentParser(description='Run Gradio demo')
+    parser.add_argument('--model', default='models/best_model.pth', help='Model path')
+    parser.add_argument('--port', type=int, default=7860, help='Port')
+    parser.add_argument('--share', action='store_true', help='Create public link')
+    
+    args = parser.parse_args()
+    
+    if not Path(args.model).exists():
+        print(f"Error: Model not found at {args.model}")
+        print("Train a model first: python scripts/train.py --data data/ --output models/")
+        return
+    
+    demo = create_app(args.model)
+    demo.launch(server_port=args.port, share=args.share)
+
+
+if __name__ == '__main__':
+    main()

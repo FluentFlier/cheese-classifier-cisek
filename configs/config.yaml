@@ -1,0 +1,38 @@
+# Cheese Inspection Configuration
+
+model:
+  name: efficientnet_b0
+  pretrained: true
+  img_size: 224
+
+training:
+  epochs: 50
+  batch_size: 16
+  lr: 0.001
+  weight_decay: 0.01
+  patience: 10
+  val_split: 0.2
+
+augmentation:
+  horizontal_flip: true
+  vertical_flip: true
+  rotation: 15
+  color_jitter:
+    brightness: 0.2
+    contrast: 0.2
+    saturation: 0.1
+    hue: 0.05
+
+# Classes - MUST be alphabetically sorted for ImageFolder
+classes:
+  - cleaning
+  - nothing
+  - shredded
+  - white_cubed
+  - yellow_cubed
+
+# Deployment
+api:
+  host: "0.0.0.0"
+  port: 8000
+  max_batch_size: 32

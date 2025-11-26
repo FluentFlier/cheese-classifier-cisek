@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  # Training service (run once)
+  train:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.train
+    volumes:
+      - ../images:/app/images:ro
+      - ../models:/app/models
+      - ../data:/app/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    profiles:
+      - train
+
+  # API service (run for deployment)
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../models:/app/models:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Gradio demo (optional)
+  demo:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    ports:
+      - "7860:7860"
+    volumes:
+      - ../models:/app/models:ro
+      - ../app.py:/app/app.py:ro
+    command: ["python", "app.py", "--port", "7860"]
+    profiles:
+      - demo
+
+# Usage:
+# Train:  docker-compose --profile train up train
+# API:    docker-compose up api
+# Demo:   docker-compose --profile demo up demo

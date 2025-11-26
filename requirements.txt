@@ -1,6 +1,3 @@
-# Cheese Inspection - Requirements
-# All packages are open-source friendly (BSD/MIT/Apache)
-
 # Core ML
 torch>=2.0.0
 torchvision>=0.15.0
@@ -12,3 +9,7 @@ opencv-python>=4.7.0
 # Utilities
 numpy>=1.24.0
 tqdm>=4.65.0
+pyyaml>=6.0
+
+# Demo UI
+gradio>=4.0.0

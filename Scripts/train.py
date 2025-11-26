@@ -1,22 +1,15 @@
 #!/usr/bin/env python3
 """
-Cheese Classification Training Script
+Train cheese classifier.
 
-Uses EfficientNet-B0 (BSD license) for binary classification:
-- white_cubed
-- nothing
-
-Features:
-- Transfer learning from ImageNet
-- Data augmentation for robustness
-- Learning rate scheduling
-- Early stopping
-- Model checkpointing
+Usage:
+    python scripts/train.py --data data/ --output models/
 """
 
 import argparse
 import json
 import time
+import yaml
 from pathlib import Path
 from datetime import datetime
 
@@ -28,82 +21,89 @@ from torchvision import datasets, transforms, models
 from torchvision.models import EfficientNet_B0_Weights
 
 
-# Class names (must match folder names in data/)
-# Alphabetically sorted to match ImageFolder behavior
-CLASS_NAMES = ['cheese', 'no_cheese']
+def load_config():
+    config_path = Path(__file__).parent.parent / "configs" / "config.yaml"
+    if config_path.exists():
+        with open(config_path) as f:
+            return yaml.safe_load(f)
+    return {}
 
 
-def get_transforms(is_training: bool = True, img_size: int = 224):
-    """Get image transforms for training or inference."""
+def get_device():
+    """Get best available device."""
+    if torch.cuda.is_available():
+        return torch.device('cuda')
+    elif torch.backends.mps.is_available():
+        return torch.device('mps')
+    return torch.device('cpu')
+
+
+def get_transforms(config, is_training: bool = True):
+    """Get image transforms."""
+    img_size = config.get("model", {}).get("img_size", 224)
+    aug = config.get("augmentation", {})
+    
     if is_training:
-        return transforms.Compose([
+        transform_list = [
             transforms.Resize((img_size + 32, img_size + 32)),
             transforms.RandomCrop(img_size),
-            transforms.RandomHorizontalFlip(p=0.5),
-            transforms.RandomVerticalFlip(p=0.3),
-            transforms.RandomRotation(15),
-            transforms.ColorJitter(
-                brightness=0.2,
-                contrast=0.2,
-                saturation=0.1,
-                hue=0.05
-            ),
-            transforms.RandomAffine(
-                degrees=0,
-                translate=(0.1, 0.1),
-                scale=(0.9, 1.1)
-            ),
+        ]
+        
+        if aug.get("horizontal_flip", True):
+            transform_list.append(transforms.RandomHorizontalFlip(p=0.5))
+        if aug.get("vertical_flip", False):
+            transform_list.append(transforms.RandomVerticalFlip(p=0.3))
+        if aug.get("rotation", 0) > 0:
+            transform_list.append(transforms.RandomRotation(aug["rotation"]))
+        
+        cj = aug.get("color_jitter", {})
+        if cj:
+            transform_list.append(transforms.ColorJitter(
+                brightness=cj.get("brightness", 0.2),
+                contrast=cj.get("contrast", 0.2),
+                saturation=cj.get("saturation", 0.1),
+                hue=cj.get("hue", 0.05)
+            ))
+        
+        transform_list.extend([
             transforms.ToTensor(),
-            transforms.Normalize(
-                mean=[0.485, 0.456, 0.406],
-                std=[0.229, 0.224, 0.225]
-            ),
+            transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
             transforms.RandomErasing(p=0.1),
         ])
     else:
-        return transforms.Compose([
+        transform_list = [
             transforms.Resize((img_size, img_size)),
             transforms.ToTensor(),
-            transforms.Normalize(
-                mean=[0.485, 0.456, 0.406],
-                std=[0.229, 0.224, 0.225]
-            ),
-        ])
+            transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+        ]
+    
+    return transforms.Compose(transform_list)
 
 
-def create_model(num_classes: int = 2, pretrained: bool = True) -> nn.Module:
-    """Create EfficientNet-B0 model with custom classifier."""
+def create_model(num_classes: int, pretrained: bool = True) -> nn.Module:
+    """Create EfficientNet-B0 model."""
     if pretrained:
         weights = EfficientNet_B0_Weights.IMAGENET1K_V1
         model = models.efficientnet_b0(weights=weights)
     else:
         model = models.efficientnet_b0(weights=None)
     
-    # Replace classifier
     in_features = model.classifier[1].in_features
     model.classifier = nn.Sequential(
         nn.Dropout(p=0.3, inplace=True),
         nn.Linear(in_features, num_classes)
     )
-    
     return model
 
 
-def train_one_epoch(
-    model: nn.Module,
-    loader: DataLoader,
-    criterion: nn.Module,
-    optimizer: optim.Optimizer,
-    device: torch.device,
-    epoch: int
-) -> dict:
+def train_one_epoch(model, loader, criterion, optimizer, device):
     """Train for one epoch."""
     model.train()
     running_loss = 0.0
     correct = 0
     total = 0
     
-    for batch_idx, (inputs, labels) in enumerate(loader):
+    for inputs, labels in loader:
         inputs, labels = inputs.to(device), labels.to(device)
         
         optimizer.zero_grad()
@@ -116,35 +116,22 @@ def train_one_epoch(
         _, predicted = outputs.max(1)
         total += labels.size(0)
         correct += predicted.eq(labels).sum().item()
-        
-        if (batch_idx + 1) % 10 == 0:
-            print(f"  Batch {batch_idx + 1}/{len(loader)} - Loss: {loss.item():.4f}")
     
-    epoch_loss = running_loss / total
-    epoch_acc = correct / total
-    
-    return {'loss': epoch_loss, 'accuracy': epoch_acc}
+    return {'loss': running_loss / total, 'accuracy': correct / total}
 
 
-def validate(
-    model: nn.Module,
-    loader: DataLoader,
-    criterion: nn.Module,
-    device: torch.device
-) -> dict:
+def validate(model, loader, criterion, device, class_names):
     """Validate model."""
     model.eval()
     running_loss = 0.0
     correct = 0
     total = 0
-    
-    all_preds = []
-    all_labels = []
+    class_correct = {c: 0 for c in range(len(class_names))}
+    class_total = {c: 0 for c in range(len(class_names))}
     
     with torch.no_grad():
         for inputs, labels in loader:
             inputs, labels = inputs.to(device), labels.to(device)
-            
             outputs = model(inputs)
             loss = criterion(outputs, labels)
             
@@ -153,216 +140,171 @@ def validate(
             total += labels.size(0)
             correct += predicted.eq(labels).sum().item()
             
-            all_preds.extend(predicted.cpu().numpy())
-            all_labels.extend(labels.cpu().numpy())
-    
-    epoch_loss = running_loss / total
-    epoch_acc = correct / total
-    
-    # Per-class accuracy
-    class_correct = {c: 0 for c in range(len(CLASS_NAMES))}
-    class_total = {c: 0 for c in range(len(CLASS_NAMES))}
-    
-    for pred, label in zip(all_preds, all_labels):
-        class_total[label] += 1
-        if pred == label:
-            class_correct[label] += 1
+            for pred, label in zip(predicted, labels):
+                class_total[label.item()] += 1
+                if pred == label:
+                    class_correct[label.item()] += 1
     
     class_acc = {}
-    for c in range(len(CLASS_NAMES)):
+    for c in range(len(class_names)):
         if class_total[c] > 0:
-            class_acc[CLASS_NAMES[c]] = class_correct[c] / class_total[c]
-        else:
-            class_acc[CLASS_NAMES[c]] = 0.0
+            class_acc[class_names[c]] = class_correct[c] / class_total[c]
     
     return {
-        'loss': epoch_loss,
-        'accuracy': epoch_acc,
+        'loss': running_loss / total,
+        'accuracy': correct / total,
         'class_accuracy': class_acc
     }
 
 
-def train(
-    data_dir: str,
-    output_dir: str,
-    epochs: int = 50,
-    batch_size: int = 16,
-    lr: float = 1e-3,
-    patience: int = 10,
-    img_size: int = 224
-):
-    """
-    Main training function.
+def train(data_dir: str, output_dir: str, config: dict = None):
+    """Main training function."""
+    if config is None:
+        config = load_config()
     
-    Args:
-        data_dir: Directory with train/ and val/ subdirs
-        output_dir: Directory to save model and logs
-        epochs: Maximum training epochs
-        batch_size: Batch size
-        lr: Initial learning rate
-        patience: Early stopping patience
-        img_size: Input image size
-    """
     data_dir = Path(data_dir)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    # Device
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # Training params
+    train_cfg = config.get("training", {})
+    epochs = train_cfg.get("epochs", 50)
+    batch_size = train_cfg.get("batch_size", 16)
+    lr = train_cfg.get("lr", 0.001)
+    patience = train_cfg.get("patience", 10)
+    
+    device = get_device()
     print(f"Using device: {device}")
     
     # Data
     train_dataset = datasets.ImageFolder(
         data_dir / 'train',
-        transform=get_transforms(is_training=True, img_size=img_size)
+        transform=get_transforms(config, is_training=True)
     )
     val_dataset = datasets.ImageFolder(
         data_dir / 'val',
-        transform=get_transforms(is_training=False, img_size=img_size)
+        transform=get_transforms(config, is_training=False)
     )
+    
+    class_names = train_dataset.classes
+    num_classes = len(class_names)
     
     print(f"Training samples: {len(train_dataset)}")
     print(f"Validation samples: {len(val_dataset)}")
-    print(f"Classes: {train_dataset.classes}")
-    
-    # Verify class order matches expected
-    if train_dataset.classes != CLASS_NAMES:
-        print(f"Warning: Class order {train_dataset.classes} differs from expected {CLASS_NAMES}")
+    print(f"Classes ({num_classes}): {class_names}")
     
     train_loader = DataLoader(
-        train_dataset,
-        batch_size=batch_size,
-        shuffle=True,
-        num_workers=4,
-        pin_memory=True if device.type == 'cuda' else False
+        train_dataset, batch_size=batch_size, shuffle=True,
+        num_workers=4 if device.type != 'mps' else 0,
+        pin_memory=device.type == 'cuda'
     )
     val_loader = DataLoader(
-        val_dataset,
-        batch_size=batch_size,
-        shuffle=False,
-        num_workers=4,
-        pin_memory=True if device.type == 'cuda' else False
+        val_dataset, batch_size=batch_size, shuffle=False,
+        num_workers=4 if device.type != 'mps' else 0,
+        pin_memory=device.type == 'cuda'
     )
     
     # Model
-    model = create_model(num_classes=len(CLASS_NAMES), pretrained=True)
-    model = model.to(device)
-    
-    # Loss and optimizer
+    model = create_model(num_classes, pretrained=True).to(device)
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.AdamW(model.parameters(), lr=lr, weight_decay=0.01)
-    scheduler = optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer, mode='min', factor=0.5, patience=5
-    )
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=5)
     
     # Training loop
     best_val_acc = 0.0
     best_epoch = 0
-    no_improve_count = 0
+    no_improve = 0
     history = {'train': [], 'val': []}
     
-    print(f"\nStarting training for up to {epochs} epochs...")
+    print(f"\nTraining for up to {epochs} epochs...")
     print("-" * 60)
     
     for epoch in range(epochs):
-        epoch_start = time.time()
-        print(f"\nEpoch {epoch + 1}/{epochs}")
+        start = time.time()
         
-        # Train
-        train_metrics = train_one_epoch(
-            model, train_loader, criterion, optimizer, device, epoch
-        )
+        train_metrics = train_one_epoch(model, train_loader, criterion, optimizer, device)
+        val_metrics = validate(model, val_loader, criterion, device, class_names)
         
-        # Validate
-        val_metrics = validate(model, val_loader, criterion, device)
-        
-        # Update scheduler
         scheduler.step(val_metrics['loss'])
         
-        # Record history
         history['train'].append(train_metrics)
-        history['val'].append(val_metrics)
+        history['val'].append({k: v for k, v in val_metrics.items() if k != 'class_accuracy'})
         
-        epoch_time = time.time() - epoch_start
+        elapsed = time.time() - start
         
-        print(f"  Train Loss: {train_metrics['loss']:.4f} | Train Acc: {train_metrics['accuracy']:.4f}")
-        print(f"  Val Loss: {val_metrics['loss']:.4f} | Val Acc: {val_metrics['accuracy']:.4f}")
-        print(f"  Per-class: {val_metrics['class_accuracy']}")
-        print(f"  Time: {epoch_time:.1f}s | LR: {optimizer.param_groups[0]['lr']:.6f}")
+        print(f"Epoch {epoch + 1}/{epochs} ({elapsed:.1f}s)")
+        print(f"  Train: loss={train_metrics['loss']:.4f}, acc={train_metrics['accuracy']:.4f}")
+        print(f"  Val:   loss={val_metrics['loss']:.4f}, acc={val_metrics['accuracy']:.4f}")
         
-        # Save best model
         if val_metrics['accuracy'] > best_val_acc:
             best_val_acc = val_metrics['accuracy']
             best_epoch = epoch + 1
-            no_improve_count = 0
+            no_improve = 0
             
             torch.save({
                 'epoch': epoch,
                 'model_state_dict': model.state_dict(),
                 'optimizer_state_dict': optimizer.state_dict(),
                 'val_accuracy': best_val_acc,
-                'class_names': CLASS_NAMES,
+                'class_names': class_names,
+                'config': config,
             }, output_dir / 'best_model.pth')
-            print(f"  ** Saved new best model (acc: {best_val_acc:.4f})")
+            print(f"  ** Saved best model (acc: {best_val_acc:.4f})")
         else:
-            no_improve_count += 1
+            no_improve += 1
         
-        # Early stopping
-        if no_improve_count >= patience:
-            print(f"\nEarly stopping at epoch {epoch + 1} (no improvement for {patience} epochs)")
+        if no_improve >= patience:
+            print(f"\nEarly stopping at epoch {epoch + 1}")
             break
     
-    # Save final model
+    # Save final model and history
     torch.save({
         'epoch': epoch,
         'model_state_dict': model.state_dict(),
-        'optimizer_state_dict': optimizer.state_dict(),
-        'class_names': CLASS_NAMES,
+        'class_names': class_names,
+        'config': config,
     }, output_dir / 'final_model.pth')
     
-    # Save history
     with open(output_dir / 'training_history.json', 'w') as f:
         json.dump(history, f, indent=2)
     
-    # Save config
-    config = {
-        'class_names': CLASS_NAMES,
-        'img_size': img_size,
-        'best_epoch': best_epoch,
-        'best_val_accuracy': best_val_acc,
-        'timestamp': datetime.now().isoformat()
-    }
     with open(output_dir / 'config.json', 'w') as f:
-        json.dump(config, f, indent=2)
+        json.dump({
+            'class_names': class_names,
+            'best_epoch': best_epoch,
+            'best_val_accuracy': best_val_acc,
+            'timestamp': datetime.now().isoformat(),
+            **config
+        }, f, indent=2)
     
     print("\n" + "=" * 60)
     print(f"Training complete!")
-    print(f"Best validation accuracy: {best_val_acc:.4f} at epoch {best_epoch}")
-    print(f"Model saved to: {output_dir}")
+    print(f"Best accuracy: {best_val_acc:.4f} at epoch {best_epoch}")
+    print(f"Model saved to: {output_dir}/best_model.pth")
     print("=" * 60)
 
 
 def main():
     parser = argparse.ArgumentParser(description='Train cheese classifier')
-    parser.add_argument('--data', default='data', help='Data directory with train/val splits')
-    parser.add_argument('--output', default='models', help='Output directory for model')
-    parser.add_argument('--epochs', type=int, default=50, help='Max training epochs')
-    parser.add_argument('--batch-size', type=int, default=16, help='Batch size')
-    parser.add_argument('--lr', type=float, default=1e-3, help='Learning rate')
-    parser.add_argument('--patience', type=int, default=10, help='Early stopping patience')
-    parser.add_argument('--img-size', type=int, default=224, help='Image size')
+    parser.add_argument('--data', default='data', help='Data directory')
+    parser.add_argument('--output', default='models', help='Output directory')
+    parser.add_argument('--epochs', type=int, help='Override epochs from config')
+    parser.add_argument('--batch-size', type=int, help='Override batch size')
+    parser.add_argument('--lr', type=float, help='Override learning rate')
     
     args = parser.parse_args()
     
-    train(
-        data_dir=args.data,
-        output_dir=args.output,
-        epochs=args.epochs,
-        batch_size=args.batch_size,
-        lr=args.lr,
-        patience=args.patience,
-        img_size=args.img_size
-    )
+    config = load_config()
+    
+    # Override config with command line args
+    if args.epochs:
+        config.setdefault("training", {})["epochs"] = args.epochs
+    if args.batch_size:
+        config.setdefault("training", {})["batch_size"] = args.batch_size
+    if args.lr:
+        config.setdefault("training", {})["lr"] = args.lr
+    
+    train(args.data, args.output, config)
 
 
 if __name__ == '__main__':

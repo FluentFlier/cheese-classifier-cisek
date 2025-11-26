@@ -1,0 +1,15 @@
+# Training Dockerfile
+FROM pytorch/pytorch:2.1.0-cuda12.1-cudnn8-runtime
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy code
+COPY configs/ configs/
+COPY scripts/ scripts/
+
+# Default command: split data and train
+CMD ["sh", "-c", "python scripts/split_data.py --input /app/images --output /app/data && python scripts/train.py --data /app/data --output /app/models"]

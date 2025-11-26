@@ -1,66 +1,75 @@
-# Cheese Inspection System
+# Cheese Inspection System - Production
 
-Binary classification: **cheese** vs **no_cheese**
+Computer vision system for CISEK cheese quality inspection.
 
-Uses your COCO bounding box annotations - any image with a box = cheese, no boxes = no_cheese.
+## Project Structure
 
-## Licensing
-All dependencies use permissive licenses (BSD/MIT/Apache) - fully commercial-friendly.
-
----
-
-## Quick Start (One Command)
-
-```bash
-# Activate your environment
-source venv/bin/activate
-
-# Run everything
-python run_all.py --coco path/to/result.json --images path/to/images/
+```
+cheese-inspection/
+├── images/                     # RAW IMAGES - organize by class
+│   ├── white_cubed/
+│   ├── yellow_cubed/
+│   ├── shredded/
+│   ├── nothing/
+│   └── cleaning/
+├── data/                       # GENERATED - train/val splits
+│   ├── train/
+│   └── val/
+├── models/                     # GENERATED - saved models
+├── scripts/
+│   ├── split_data.py          # Split images into train/val
+│   ├── train.py               # Training script
+│   └── inference.py           # Run predictions
+├── api/
+│   ├── main.py                # FastAPI server
+│   └── requirements.txt       # API dependencies
+├── docker/
+│   ├── Dockerfile.train       # Training container
+│   ├── Dockerfile.api         # Deployment container
+│   └── docker-compose.yml     # Orchestration
+├── configs/
+│   └── config.yaml            # Training config
+├── tests/
+│   └── test_inference.py      # Basic tests
+├── app.py                     # Gradio demo app
+├── requirements.txt           # Main dependencies
+└── README.md
 ```
 
-That's it. Model saves to `models/best_model.pth`.
-
 ---
 
-## Step-by-Step Setup
+## Quick Start
 
-### 1. Setup Environment
+### 1. Setup
 
 ```bash
+# Clone and enter project
+cd cheese-inspection
+
+# Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-# or: venv\Scripts\activate  # Windows
-
 pip install -r requirements.txt
 ```
 
-### 2. Export from Label Studio
+### 2. Organize Images
 
-Export your project as **COCO format** (with images). You'll get:
+Put your images in the `images/` folder by class:
 ```
-export/
-├── result.json      # COCO annotations
-└── images/          # Your labeled images
+images/
+├── white_cubed/   # ~50-200 images
+├── nothing/       # ~50-200 images
+└── ...
 ```
 
 ### 3. Train
 
-**Option A - One command:**
 ```bash
-python run_all.py --coco export/result.json --images export/images/
-```
+# Split into train/val
+python scripts/split_data.py --input images/ --output data/
 
-**Option B - Step by step:**
-```bash
-# Prepare data
-python scripts/prepare_from_coco.py \
-    --coco export/result.json \
-    --images export/images/ \
-    --output data/
-
-# Train
-python scripts/train.py --data data/ --output models/ --epochs 30
+# Train model
+python scripts/train.py --data data/ --output models/
 ```
 
 ### 4. Test
@@ -69,139 +78,123 @@ python scripts/train.py --data data/ --output models/ --epochs 30
 # Single image
 python scripts/inference.py --model models/best_model.pth --image test.jpg
 
-# Folder of images
-python scripts/inference.py --model models/best_model.pth --dir test_images/ --output results.json
-
-# Live camera
-python scripts/inference.py --model models/best_model.pth --video 0
+# Gradio demo
+python app.py
 ```
 
-**Video file:**
+---
+
+## Docker Usage
+
+### Training (GPU recommended)
+
 ```bash
-python scripts/inference.py --model models/best_model.pth --video recording.mp4
+# Build training image
+docker build -f docker/Dockerfile.train -t cheese-train .
+
+# Run training
+docker run --gpus all -v $(pwd)/images:/app/images -v $(pwd)/models:/app/models cheese-train
 ```
 
----
+### Deployment API
 
-## Training Tips for Better Accuracy
-
-### Data Quality
-- **Minimum**: 50 images per class
-- **Recommended**: 200+ images per class
-- Include variety in lighting, angles, cheese quantity
-- Balance your classes (roughly equal samples per class)
-
-### Data Augmentation
-The training script includes aggressive augmentation:
-- Random crops, flips, rotations
-- Color jitter (brightness, contrast, saturation)
-- Random erasing
-
-This helps the model generalize better with limited data.
-
-### Hyperparameters
 ```bash
-# For small datasets (<100 images)
-python scripts/train.py --epochs 100 --batch-size 8 --lr 0.0005
+# Build API image
+docker build -f docker/Dockerfile.api -t cheese-api .
 
-# For larger datasets (500+ images)
-python scripts/train.py --epochs 50 --batch-size 32 --lr 0.001
+# Run API
+docker run -p 8000:8000 -v $(pwd)/models:/app/models cheese-api
+
+# Test
+curl -X POST "http://localhost:8000/predict" -F "file=@test.jpg"
 ```
 
-### If Accuracy is Poor
-1. **Check class balance** - Ensure roughly equal samples per class
-2. **More data** - Label more images, especially failure cases
-3. **Review labels** - Check for mislabeled images
-4. **Lower learning rate** - Try `--lr 0.0001`
-5. **More epochs** - Try `--epochs 100` with higher patience
+### Docker Compose (Full Stack)
 
----
-
-## Adding More Classes
-
-To add yellow_cubed, shredded, cleaning, etc:
-
-1. Update `configs/label_studio_config.xml`:
-```xml
-<View>
-  <Image name="image" value="$image"/>
-  <Choices name="choice" toName="image" choice="single" showInline="true">
-    <Choice value="white_cubed"/>
-    <Choice value="yellow_cubed"/>
-    <Choice value="shredded"/>
-    <Choice value="nothing"/>
-    <Choice value="cleaning"/>
-  </Choices>
-</View>
-```
-
-2. Update `CLASS_NAMES` in `scripts/train.py`:
-```python
-CLASS_NAMES = ['cleaning', 'nothing', 'shredded', 'white_cubed', 'yellow_cubed']
-```
-Note: Names must be alphabetically sorted to match ImageFolder behavior.
-
-3. Re-label and retrain.
-
----
-
-## Project Structure
-
-```
-cheese-inspection/
-├── run_all.py                    # One-command training
-├── scripts/
-│   ├── prepare_from_coco.py      # Parse COCO export → dataset
-│   ├── train.py                  # Training script
-│   └── inference.py              # Inference script
-├── data/                         # Generated: train/val splits
-├── models/                       # Generated: saved models
-├── requirements.txt
-└── README.md
+```bash
+docker-compose -f docker/docker-compose.yml up
 ```
 
 ---
 
-## Deployment
+## API Endpoints
 
-The trained model can be deployed:
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/predict` | POST | Classify single image |
+| `/batch` | POST | Classify multiple images |
+| `/health` | GET | Health check |
+| `/classes` | GET | List available classes |
 
-**Python/Flask API:**
-```python
-from scripts.inference import load_model, predict_image, get_inference_transform
-from PIL import Image
-import torch
+### Example Request
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model, class_names = load_model('models/best_model.pth', device)
-transform = get_inference_transform()
-
-# In your API endpoint:
-image = Image.open(uploaded_file).convert('RGB')
-result = predict_image(model, image, transform, class_names, device)
+```bash
+curl -X POST "http://localhost:8000/predict" \
+  -F "file=@cheese_image.jpg"
 ```
 
-**Edge deployment (Jetson, Raspberry Pi):**
-- Model size: ~16MB
-- Works on CPU (slower) or GPU
-- For faster inference, consider ONNX export or TensorRT
+### Example Response
+
+```json
+{
+  "class": "white_cubed",
+  "confidence": 0.94,
+  "probabilities": {
+    "white_cubed": 0.94,
+    "yellow_cubed": 0.03,
+    "shredded": 0.02,
+    "nothing": 0.01,
+    "cleaning": 0.00
+  }
+}
+```
 
 ---
 
-## Troubleshooting
+## Configuration
 
-**CUDA out of memory:**
-- Reduce `--batch-size` (try 8 or 4)
+Edit `configs/config.yaml`:
 
-**Model not improving:**
-- Check data quality and labels
-- Try lower learning rate
-- Ensure classes are balanced
+```yaml
+model:
+  name: efficientnet_b0
+  num_classes: 5
+  img_size: 224
 
-**Slow training:**
-- Use GPU if available
-- Reduce `--img-size` to 192 or 160
+training:
+  epochs: 50
+  batch_size: 16
+  lr: 0.001
+  patience: 10
 
-**Import errors:**
-- Ensure virtual environment is activated
-- Run `pip install -r requirements.txt`
+classes:
+  - cleaning
+  - nothing
+  - shredded
+  - white_cubed
+  - yellow_cubed
+```
+
+---
+
+## Adding New Classes
+
+1. Create folder in `images/new_class/`
+2. Add images (50+ recommended)
+3. Update `configs/config.yaml` classes list
+4. Re-run training
+
+---
+
+## Model Performance
+
+After training, check `models/training_history.json` for:
+- Training/validation accuracy per epoch
+- Per-class accuracy
+- Loss curves
+
+---
+
+## License
+
+All dependencies use permissive licenses (BSD/MIT/Apache) - commercial friendly.
