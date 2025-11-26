@@ -17,6 +17,7 @@ cheese-inspection/
 │   └── val/
 ├── models/                     # GENERATED - saved models
 ├── results/                    # GENERATED - evaluation reports
+│   ├── report.html             # Interactive HTML report with images
 │   ├── predictions.csv
 │   ├── errors.csv
 │   ├── label_studio_import.json
@@ -102,10 +103,26 @@ python scripts/evaluate.py --model models/best_model.pth --images images/ --outp
 ```
 
 **Outputs:**
+- `results/report.html` - **Interactive HTML report with image thumbnails** (open in browser)
 - `results/predictions.csv` - All predictions with confidence scores
 - `results/errors.csv` - Only incorrect predictions for quick review
 - `results/label_studio_import.json` - Import into Label Studio for corrections
 - `results/summary.json` - Overall and per-class accuracy statistics
+
+**View HTML Report:**
+```bash
+open results/report.html  # Mac
+xdg-open results/report.html  # Linux
+start results/report.html  # Windows
+```
+
+The HTML report includes:
+- Visual summary with accuracy stats
+- Per-class accuracy bars
+- Image thumbnails with predictions
+- Tabs for "Errors Only" and "All Results"
+- Click images to view full size
+- Color-coded correct/incorrect predictions
 
 **Label Studio Workflow:**
 

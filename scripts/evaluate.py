@@ -75,6 +75,356 @@ def predict_image(model, image: Image.Image, transform, class_names, device) -> 
     }
 
 
+def generate_html_report(results: List[Dict], errors: List[Dict], accuracy: float,
+                         class_accuracy: Dict, output_path: Path, images_dir: Path):
+    """Generate HTML report with embedded images."""
+
+    html_content = f"""
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheese Classifier - Evaluation Report</title>
+    <style>
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }}
+        .container {{
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }}
+        h1 {{
+            color: #333;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }}
+        h2 {{
+            color: #555;
+            margin-top: 30px;
+        }}
+        .summary {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }}
+        .stat-card {{
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid #4CAF50;
+        }}
+        .stat-card h3 {{
+            margin: 0 0 10px 0;
+            color: #666;
+            font-size: 14px;
+            text-transform: uppercase;
+        }}
+        .stat-card .value {{
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+        }}
+        .class-accuracy {{
+            margin: 20px 0;
+        }}
+        .class-bar {{
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }}
+        .class-name {{
+            width: 150px;
+            font-weight: 500;
+        }}
+        .bar {{
+            flex: 1;
+            height: 30px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        }}
+        .bar-fill {{
+            height: 100%;
+            background: linear-gradient(90deg, #4CAF50, #8BC34A);
+            transition: width 0.3s;
+        }}
+        .bar-text {{
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: bold;
+            color: #333;
+        }}
+        .results-table {{
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }}
+        .results-table th {{
+            background: #4CAF50;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            position: sticky;
+            top: 0;
+        }}
+        .results-table td {{
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }}
+        .results-table tr:hover {{
+            background: #f5f5f5;
+        }}
+        .image-cell {{
+            width: 120px;
+        }}
+        .image-cell img {{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }}
+        .image-cell img:hover {{
+            transform: scale(1.1);
+        }}
+        .correct {{
+            color: #4CAF50;
+            font-weight: bold;
+        }}
+        .incorrect {{
+            color: #f44336;
+            font-weight: bold;
+        }}
+        .confidence {{
+            font-family: monospace;
+        }}
+        .tabs {{
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            border-bottom: 2px solid #ddd;
+        }}
+        .tab {{
+            padding: 10px 20px;
+            cursor: pointer;
+            background: #f0f0f0;
+            border: none;
+            border-radius: 4px 4px 0 0;
+            font-size: 16px;
+        }}
+        .tab.active {{
+            background: #4CAF50;
+            color: white;
+        }}
+        .tab-content {{
+            display: none;
+        }}
+        .tab-content.active {{
+            display: block;
+        }}
+        .modal {{
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+        }}
+        .modal img {{
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+            margin-top: 50px;
+        }}
+        .close {{
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧀 Cheese Classifier - Evaluation Report</h1>
+        <p>Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
+
+        <div class="summary">
+            <div class="stat-card">
+                <h3>Total Images</h3>
+                <div class="value">{len(results)}</div>
+            </div>
+            <div class="stat-card">
+                <h3>Overall Accuracy</h3>
+                <div class="value">{accuracy:.1%}</div>
+            </div>
+            <div class="stat-card">
+                <h3>Correct</h3>
+                <div class="value" style="color: #4CAF50;">{len(results) - len(errors)}</div>
+            </div>
+            <div class="stat-card">
+                <h3>Errors</h3>
+                <div class="value" style="color: #f44336;">{len(errors)}</div>
+            </div>
+        </div>
+
+        <h2>Per-Class Accuracy</h2>
+        <div class="class-accuracy">
+"""
+
+    for cls in sorted(class_accuracy.keys()):
+        acc = class_accuracy[cls]
+        html_content += f"""
+            <div class="class-bar">
+                <div class="class-name">{cls}</div>
+                <div class="bar">
+                    <div class="bar-fill" style="width: {acc*100}%"></div>
+                    <div class="bar-text">{acc:.1%}</div>
+                </div>
+            </div>
+"""
+
+    html_content += """
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('errors')">Errors Only</button>
+            <button class="tab" onclick="showTab('all')">All Results</button>
+        </div>
+
+        <div id="errors" class="tab-content active">
+            <h2>Incorrect Predictions ({} errors)</h2>
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Filename</th>
+                        <th>Actual</th>
+                        <th>Predicted</th>
+                        <th>Confidence</th>
+                    </tr>
+                </thead>
+                <tbody>
+""".format(len(errors))
+
+    for error in errors:
+        img_path = Path(error['image_path'])
+        rel_path = img_path.relative_to(images_dir) if img_path.is_absolute() else img_path
+        html_content += f"""
+                    <tr>
+                        <td class="image-cell">
+                            <img src="{rel_path}" alt="{error['filename']}" onclick="showModal(this.src)">
+                        </td>
+                        <td>{error['filename']}</td>
+                        <td><span class="correct">{error['actual_class']}</span></td>
+                        <td><span class="incorrect">{error['predicted_class']}</span></td>
+                        <td class="confidence">{error['confidence']:.2%}</td>
+                    </tr>
+"""
+
+    html_content += """
+                </tbody>
+            </table>
+        </div>
+
+        <div id="all" class="tab-content">
+            <h2>All Predictions</h2>
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Filename</th>
+                        <th>Actual</th>
+                        <th>Predicted</th>
+                        <th>Confidence</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+"""
+
+    for result in results:
+        img_path = Path(result['image_path'])
+        rel_path = img_path.relative_to(images_dir) if img_path.is_absolute() else img_path
+        status_class = 'correct' if result['correct'] else 'incorrect'
+        status_text = '✓ Correct' if result['correct'] else '✗ Wrong'
+
+        html_content += f"""
+                    <tr>
+                        <td class="image-cell">
+                            <img src="{rel_path}" alt="{result['filename']}" onclick="showModal(this.src)">
+                        </td>
+                        <td>{result['filename']}</td>
+                        <td>{result['actual_class']}</td>
+                        <td>{result['predicted_class']}</td>
+                        <td class="confidence">{result['confidence']:.2%}</td>
+                        <td class="{status_class}">{status_text}</td>
+                    </tr>
+"""
+
+    html_content += """
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="">
+    </div>
+
+    <script>
+        function showTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(el => {
+                el.classList.remove('active');
+            });
+            document.querySelectorAll('.tab').forEach(el => {
+                el.classList.remove('active');
+            });
+
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        function showModal(src) {
+            document.getElementById('imageModal').style.display = 'block';
+            document.getElementById('modalImage').src = src;
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
+"""
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(html_content)
+
+
 def evaluate_images(model_path: str, images_dir: str, output_dir: str):
     """Evaluate model on all images and generate reports."""
 
@@ -234,6 +584,11 @@ def evaluate_images(model_path: str, images_dir: str, output_dir: str):
         json.dump(label_studio_tasks, f, indent=2)
 
     print(f"✓ Saved Label Studio import to: {label_studio_json}")
+
+    # Generate HTML report with images
+    html_report = output_dir / 'report.html'
+    generate_html_report(results, errors, accuracy, class_accuracy, html_report, images_dir)
+    print(f"✓ Saved HTML report with images to: {html_report}")
 
     # Save summary
     summary = {
