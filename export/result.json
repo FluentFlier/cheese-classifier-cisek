@@ -1,0 +1,2469 @@
+{
+  "images": [
+    {
+      "width": null,
+      "height": null,
+      "id": 0,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/216c024b-2025-11-19_19-13-52_img_1763601232670110_0009926916.png"
+    },
+    {
+      "width": 736,
+      "height": 448,
+      "id": 1,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2ba72bc8-2025-11-19_19-03-52_img_1763600632070772_0009917907.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 2,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3800acae-2025-11-18_17-53-07_img_1763509987551737_0008558549.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 3,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1ed80a7d-2025-11-18_17-58-41_img_1763510321218082_0008563554.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 4,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/596f7057-2025-11-18_17-55-21_img_1763510121018297_0008560551.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 5,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a58c99e7-2025-11-19_18-34-56_img_1763598896872550_0009891881.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 6,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/18608435-2025-11-19_1-33-43_img_1763537623017943_0008972963.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 7,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/458423dd-2025-11-18_17-54-14_img_1763510054284922_0008559550.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 8,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/21efa9e3-2025-11-18_17-03-04_img_1763506984354595_0008513504.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 9,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/17431482-2025-11-18_16-04-06_img_1763503446759510_0008460451.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 10,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/9bc1b65c-2025-11-18_18-05-21_img_1763510721751135_0008569560.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 11,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/cdf2c0c1-2025-11-18_17-50-54_img_1763509854018660_0008556547.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 12,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f34cbaa0-2025-11-18_17-06-24_img_1763507184554466_0008516507.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 13,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/935601d2-2025-11-19_14-30-10_img_1763584210891466_0009671661.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 14,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/dfa2b90f-2025-11-19_10-08-45_img_1763568525845114_0009436426.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 15,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/cad8ea0d-2025-11-19_10-06-32_img_1763568392311808_0009434424.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 16,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/fd6f0c95-2025-11-19_19-04-58_img_1763600698803862_0009918908.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 17,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2be6db4b-2025-11-18_17-43-06_img_1763509386752502_0008549540.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 18,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2d2949ac-2025-11-19_19-02-45_img_1763600565337513_0009916906.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 19,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/60b5aca1-2025-11-18_16-51-57_img_1763506317022033_0008503494.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 20,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e9ee1ef1-2025-11-18_18-00-54_img_1763510454685045_0008565556.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 21,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a2e541c9-2025-11-19_19-21-40_img_1763601700469666_0009933923.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 22,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/508d4085-2025-11-19_13-14-32_img_1763579672097177_0009603593.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 23,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/37f82617-2025-11-19_19-18-20_img_1763601500069935_0009930920.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 24,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d0211854-2025-11-19_19-28-23_img_1763602103842273_0009939929.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 25,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f44fe834-2025-11-19_18-59-25_img_1763600365137594_0009913903.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 26,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1eead871-2025-11-19_17-28-11_img_1763594891277178_0009831821.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 27,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b8429e17-2025-11-18_18-04-14_img_1763510654884551_0008568559.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 28,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/537fc856-2025-11-18_17-56-27_img_1763510187752180_0008561552.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 29,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1128e3c3-2025-11-18_14-54-01_img_1763499241963892_0008397388.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 30,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3df52b1b-2025-11-19_13-01-11_img_1763578871164871_0009591581.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 31,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d2a72d00-2025-11-18_17-44-13_img_1763509453485618_0008550541.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 32,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d2c1de0f-2025-11-19_18-28-16_img_1763598496339750_0009885875.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 33,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/42f37f42-2025-11-19_19-06-05_img_1763600765537269_0009919909.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 34,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3485121b-2025-11-19_18-57-11_img_1763600231671215_0009911901.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 35,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/790c570c-2025-11-19_16-55-54_img_1763592954346535_0009802792.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 36,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d9af1b2e-2025-11-18_17-20-52_img_1763508052086871_0008529520.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 37,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/805b120e-2025-11-18_17-10-51_img_1763507451487285_0008520511.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 38,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2b069e0d-2025-11-19_19-12-45_img_1763601165936821_0009925915.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 39,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/7af4cb6a-2025-11-19_18-51-38_img_1763599898007870_0009906896.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 40,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/488fbde0-2025-11-19_18-54-58_img_1763600098204831_0009909899.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 41,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a8847800-2025-11-18_18-06-28_img_1763510788484673_0008570561.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 42,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3a4669fb-2025-11-19_19-22-47_img_1763601767202728_0009934924.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 43,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/5d2dc508-2025-11-18_17-31-59_img_1763508719419486_0008539530.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 44,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ac182549-2025-11-18_17-23-05_img_1763508185553489_0008531522.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 45,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3b48896f-2025-11-18_7-15-40_img_1763471740195310_0007984976.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 46,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/9ce0a70a-2025-11-19_18-32-43_img_1763598763339368_0009889879.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 47,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8a08416d-2025-11-18_15-08-29_img_1763500109496192_0008410401.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 48,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/319de9b1-2025-11-18_15-19-36_img_1763500776828784_0008420411.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 49,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e6a47c36-2025-11-19_18-19-22_img_1763597962140249_0009877867.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 50,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/4e297f28-2025-11-19_18-36-03_img_1763598963672619_0009892882.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 51,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2a41d70b-2025-11-18_16-01-53_img_1763503313292169_0008458449.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 52,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/bdb3746f-2025-11-18_17-47-33_img_1763509653818657_0008553544.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 53,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/08aee348-2025-11-19_19-07-12_img_1763600832270343_0009920910.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 54,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/da28f496-2025-11-19_19-08-19_img_1763600899003738_0009921911.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 55,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/02588cab-2025-11-19_16-36-59_img_1763591819414725_0009785775.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 56,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e865d439-2025-11-19_1-31-29_img_1763537489551401_0008970961.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 57,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/4af62299-2025-11-18_17-30-52_img_1763508652686364_0008538529.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 58,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/fa4b4c3b-2025-11-19_18-47-11_img_1763599631071913_0009902892.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 59,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/bb6d717d-2025-11-19_19-11-39_img_1763601099203617_0009924914.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 60,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b97a64ab-2025-11-18_18-02-01_img_1763510521418005_0008566557.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 61,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/42b20f75-2025-11-19_19-13-52_img_1763601232670110_0009926916.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 62,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b4e59442-2025-11-18_23-55-49_img_1763531749155640_0008884875.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 63,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/04dc6076-2025-11-19_10-28-47_img_1763569727043450_0009454444.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 64,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3ecef38c-2025-11-19_17-31-31_img_1763595091477055_0009834824.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 65,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d2d805dd-2025-11-19_12-46-43_img_1763578003632753_0009578568.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 66,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ee6b2ea3-2025-11-18_22-56-51_img_1763528211756712_0008831822.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 67,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a76ae210-2025-11-19_11-36-38_img_1763573797971444_0009515505.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 68,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/50e49446-2025-11-19_10-23-13_img_1763569393377208_0009449439.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 69,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/03e53a41-2025-11-19_11-27-44_img_1763573264105322_0009507497.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 70,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/52e85aa5-2025-11-19_18-10-27_img_1763597427807595_0009869859.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 71,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1ae02115-2025-11-18_23-03-32_img_1763528612489673_0008837828.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 72,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/26d06e15-2025-11-19_13-00-04_img_1763578804431681_0009590580.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 73,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b04822c7-2025-11-18_23-50-15_img_1763531415422464_0008879870.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 74,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e4de3ae6-2025-11-18_23-02-25_img_1763528545756289_0008836827.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 75,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/4ab76275-2025-11-19_12-28-55_img_1763576935834000_0009562552.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 76,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a866eb5f-2025-11-18_22-07-54_img_1763525274558726_0008787778.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 77,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/79a991d8-2025-11-19_14-29-04_img_1763584144157886_0009670660.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 78,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/53a311af-2025-11-19_0-19-11_img_1763533151354762_0008905896.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 79,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b018f9a0-2025-11-19_12-20-01_img_1763576401501462_0009554544.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 80,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/aba778c8-2025-11-19_16-03-37_img_1763589817283814_0009755745.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 81,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/aa50f45d-2025-11-19_14-11-16_img_1763583076426177_0009654644.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 82,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/55e230e9-2025-11-18_22-11-14_img_1763525474758380_0008790781.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 83,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/215fce17-2025-11-19_13-57-55_img_1763582275627079_0009642632.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 84,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8a15ceea-2025-11-19_12-12-14_img_1763575933968704_0009547537.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 85,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/103e2732-2025-11-18_23-59-09_img_1763531949488774_0008887878.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 86,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/569cec82-2025-11-18_23-01-18_img_1763528478956547_0008835826.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 87,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/eaa2552b-2025-11-18_6-18-54_img_1763468334665925_0007933925.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 88,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/34d990ce-2025-11-19_13-33-27_img_1763580807495686_0009620610.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 89,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b8dcb9a0-2025-11-18_22-47-57_img_1763527677490000_0008823814.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 90,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/5737c312-2025-11-18_23-00-12_img_1763528412023152_0008834825.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 91,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/dbc1ad96-2025-11-19_17-14-49_img_1763594089878331_0009819809.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 92,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d0613666-2025-11-19_12-11-07_img_1763575867235268_0009546536.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 93,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/03c7f473-2025-11-19_10-42-07_img_1763570527842337_0009466456.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 94,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/fe122ddb-2025-11-19_13-49-01_img_1763581741761143_0009634624.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 95,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8ff3ef31-2025-11-18_23-40-14_img_1763530814822682_0008870861.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 96,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f1a99243-2025-11-19_10-44-21_img_1763570661308855_0009468458.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 97,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/0a6391cd-2025-11-18_23-41-21_img_1763530881555964_0008871862.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 98,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ef54a50f-2025-11-18_23-34-41_img_1763530481156104_0008865856.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 99,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/098d0b74-2025-11-19_16-24-45_img_1763591085348922_0009774764.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 100,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2c866202-2025-11-19_17-39-18_img_1763595558609879_0009841831.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 101,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/84efa719-2025-11-19_17-21-30_img_1763594490744354_0009825815.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 102,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/17da404a-2025-11-19_10-19-53_img_1763569193177518_0009446436.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 103,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/fe677fe1-2025-11-19_16-04-44_img_1763589884083675_0009756746.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 104,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/126009cc-2025-11-19_17-20-24_img_1763594424010928_0009824814.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 105,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b4ccebea-2025-11-19_11-59-59_img_1763575199636176_0009536526.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 106,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ec67485e-2025-11-19_17-32-38_img_1763595158210329_0009835825.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 107,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/542cb337-2025-11-18_23-33-34_img_1763530414422791_0008864855.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 108,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a76eb517-2025-11-19_0-32-32_img_1763533952220710_0008917908.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 109,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8f53a54b-2025-11-19_11-22-10_img_1763572930439052_0009502492.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 110,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/142af295-2025-11-18_22-39-03_img_1763527143490202_0008815806.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 111,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ab257070-2025-11-19_17-41-32_img_1763595692076294_0009843833.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 112,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/18293df1-2025-11-19_13-51-15_img_1763581875227646_0009636626.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 113,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/6e067890-2025-11-18_22-37-56_img_1763527076556969_0008814805.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 114,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3c9fecb6-2025-11-19_0-23-38_img_1763533418354599_0008909900.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 115,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e1167e1c-2025-11-18_23-49-08_img_1763531348689087_0008878869.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 116,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/699774b2-2025-11-18_22-26-49_img_1763526409024048_0008804795.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 117,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/05c7329d-2025-11-18_22-24-35_img_1763526275557590_0008802793.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 118,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2753e3e7-2025-11-18_23-56-55_img_1763531815888753_0008885876.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 119,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f34c2d81-2025-11-18_23-53-35_img_1763531615689052_0008882873.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 120,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2235f213-2025-11-19_17-25-57_img_1763594757810804_0009829819.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 121,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ceb02d7c-2025-11-18_22-25-42_img_1763526342290617_0008803794.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 122,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a660a18c-2025-11-19_10-34-20_img_1763570060709546_0009459449.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 123,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/260ef579-2025-11-19_14-32-24_img_1763584344490855_0009673663.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 124,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ee05f1c7-2025-11-19_14-57-59_img_1763585879689221_0009696686.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 125,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/86afd5b6-2025-11-19_0-00-16_img_1763532016355354_0008888879.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 126,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8ee88825-2025-11-18_23-52-29_img_1763531548955730_0008881872.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 127,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ee518c56-2025-11-18_22-30-09_img_1763526609223829_0008807798.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 128,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/4a241020-2025-11-18_23-43-35_img_1763531015022397_0008873864.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 129,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/68601a72-2025-11-18_23-44-41_img_1763531081755754_0008874865.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 130,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/dac94242-2025-11-18_22-57-58_img_1763528278489915_0008832823.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 131,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/73ecc0f6-2025-11-18_23-54-42_img_1763531682422286_0008883874.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 132,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e1a3fe5b-2025-11-18_22-59-05_img_1763528345223202_0008833824.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 133,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d1c10f07-2025-11-18_22-33-29_img_1763526809423574_0008810801.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 134,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/799fbba0-2025-11-19_14-23-30_img_1763583810491682_0009665655.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 135,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/46864c5b-2025-11-19_19-13-52_img_1763601232670110_0009926916.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 136,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/5b852e53-2025-11-19_19-03-52_img_1763600632070772_0009917907.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 137,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f970603d-2025-11-18_17-53-07_img_1763509987551737_0008558549.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 138,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d28d56be-2025-11-18_17-58-41_img_1763510321218082_0008563554.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 139,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/81b05c2a-2025-11-18_17-55-21_img_1763510121018297_0008560551.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 140,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/94c02ad8-2025-11-19_18-34-56_img_1763598896872550_0009891881.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 141,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/bdff12de-2025-11-19_1-33-43_img_1763537623017943_0008972963.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 142,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/052d7f21-2025-11-18_17-54-14_img_1763510054284922_0008559550.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 143,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/976d444e-2025-11-18_17-03-04_img_1763506984354595_0008513504.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 144,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d31665e5-2025-11-18_16-04-06_img_1763503446759510_0008460451.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 145,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f938ef80-2025-11-18_18-05-21_img_1763510721751135_0008569560.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 146,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a0dd8338-2025-11-18_17-50-54_img_1763509854018660_0008556547.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 147,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a22a2472-2025-11-18_17-06-24_img_1763507184554466_0008516507.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 148,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/c172fc7c-2025-11-19_14-30-10_img_1763584210891466_0009671661.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 149,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3e1320b3-2025-11-19_10-08-45_img_1763568525845114_0009436426.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 150,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/16343ec4-2025-11-19_10-06-32_img_1763568392311808_0009434424.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 151,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/087c4833-2025-11-19_19-04-58_img_1763600698803862_0009918908.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 152,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/bc3f56ac-2025-11-18_17-43-06_img_1763509386752502_0008549540.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 153,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8c0b933a-2025-11-19_19-02-45_img_1763600565337513_0009916906.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 154,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d47a9306-2025-11-18_16-51-57_img_1763506317022033_0008503494.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 155,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/7914f88b-2025-11-18_18-00-54_img_1763510454685045_0008565556.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 156,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/94a2da1b-2025-11-19_19-21-40_img_1763601700469666_0009933923.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 157,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/509435e6-2025-11-19_13-14-32_img_1763579672097177_0009603593.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 158,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d98d6db9-2025-11-19_19-18-20_img_1763601500069935_0009930920.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 159,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/42d691e9-2025-11-19_19-28-23_img_1763602103842273_0009939929.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 160,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d64d2eac-2025-11-19_18-59-25_img_1763600365137594_0009913903.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 161,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/405525bc-2025-11-19_17-28-11_img_1763594891277178_0009831821.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 162,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a9480506-2025-11-18_18-04-14_img_1763510654884551_0008568559.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 163,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/98ea0108-2025-11-18_17-56-27_img_1763510187752180_0008561552.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 164,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/018491b4-2025-11-18_14-54-01_img_1763499241963892_0008397388.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 165,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/622dcfe6-2025-11-19_13-01-11_img_1763578871164871_0009591581.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 166,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8da75435-2025-11-18_17-44-13_img_1763509453485618_0008550541.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 167,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d380128f-2025-11-19_18-28-16_img_1763598496339750_0009885875.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 168,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/fa7c3482-2025-11-19_19-06-05_img_1763600765537269_0009919909.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 169,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/bf5d1d76-2025-11-19_18-57-11_img_1763600231671215_0009911901.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 170,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/01bf7065-2025-11-19_16-55-54_img_1763592954346535_0009802792.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 171,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3096f931-2025-11-18_17-20-52_img_1763508052086871_0008529520.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 172,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/187bb3a3-2025-11-18_17-10-51_img_1763507451487285_0008520511.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 173,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/96d47270-2025-11-19_19-12-45_img_1763601165936821_0009925915.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 174,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ab07d348-2025-11-19_18-51-38_img_1763599898007870_0009906896.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 175,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/245728de-2025-11-19_18-54-58_img_1763600098204831_0009909899.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 176,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8dbed6d2-2025-11-18_18-06-28_img_1763510788484673_0008570561.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 177,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/5d21addc-2025-11-19_19-22-47_img_1763601767202728_0009934924.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 178,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/7e82b510-2025-11-18_17-31-59_img_1763508719419486_0008539530.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 179,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f9ebe26b-2025-11-18_17-23-05_img_1763508185553489_0008531522.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 180,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/94a96c4a-2025-11-18_7-15-40_img_1763471740195310_0007984976.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 181,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f730c20d-2025-11-19_18-32-43_img_1763598763339368_0009889879.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 182,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3a047a05-2025-11-18_15-08-29_img_1763500109496192_0008410401.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 183,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/23491f86-2025-11-18_15-19-36_img_1763500776828784_0008420411.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 184,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8fb31f02-2025-11-19_18-19-22_img_1763597962140249_0009877867.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 185,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d04b5656-2025-11-19_18-36-03_img_1763598963672619_0009892882.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 186,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b3db91dd-2025-11-18_16-01-53_img_1763503313292169_0008458449.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 187,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e0f5cc36-2025-11-18_17-47-33_img_1763509653818657_0008553544.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 188,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/c0da5321-2025-11-19_19-07-12_img_1763600832270343_0009920910.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 189,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/47987630-2025-11-19_19-08-19_img_1763600899003738_0009921911.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 190,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/840376bc-2025-11-19_16-36-59_img_1763591819414725_0009785775.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 191,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f4ea986d-2025-11-19_1-31-29_img_1763537489551401_0008970961.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 192,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3fb0c852-2025-11-18_17-30-52_img_1763508652686364_0008538529.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 193,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e554a6ae-2025-11-19_18-47-11_img_1763599631071913_0009902892.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 194,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/877bc5ac-2025-11-19_19-11-39_img_1763601099203617_0009924914.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 195,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/5facabf4-2025-11-18_18-02-01_img_1763510521418005_0008566557.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 196,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1a42c1dc-2025-11-19_18-38-17_img_1763599097205856_0009894884.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 197,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f5aed8ad-2025-11-19_18-58-18_img_1763600298404499_0009912902.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 198,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/bd592948-2025-11-19_18-21-35_img_1763598095806867_0009879869.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 199,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/929572e5-2025-11-19_18-27-09_img_1763598429473103_0009884874.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 200,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b7a6b74b-2025-11-18_17-07-31_img_1763507251287689_0008517508.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 201,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/4cf7beed-2025-11-18_17-39-46_img_1763509186552461_0008546537.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 202,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ee1719c3-2025-11-19_1-35-56_img_1763537756484474_0008974965.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 203,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/6fded39e-2025-11-19_10-56-35_img_1763571395441240_0009479469.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 204,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/294476d3-2025-11-18_17-00-50_img_1763506850887989_0008511502.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 205,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/fbd21893-2025-11-19_19-14-59_img_1763601299470099_0009927917.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 206,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/881be389-2025-11-18_17-14-11_img_1763507651687208_0008523514.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 207,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3312479b-2025-11-18_4-30-57_img_1763461857139662_0007836828.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 208,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/5967ab35-2025-11-18_0-19-27_img_1763446767748845_0007610602.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 209,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b0d107e8-2025-11-19_17-09-16_img_1763593756012033_0009814804.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 210,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b7beb4fe-2025-11-19_15-39-08_img_1763588348885711_0009733723.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 211,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/c16e48e4-2025-11-18_16-48-36_img_1763506116822266_0008500491.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 212,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ebf15d97-2025-11-18_0-13-54_img_1763446434082493_0007605597.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 213,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/88cb91a1-2025-11-18_6-34-28_img_1763469268931448_0007947939.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 214,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2eeb1556-2025-11-18_3-11-55_img_1763457115476859_0007765757.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 215,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2c4807ce-2025-11-18_5-56-38_img_1763466998867440_0007913905.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 216,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/5d94070d-2025-11-18_6-42-16_img_1763469736064426_0007954946.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 217,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/4b51898d-2025-11-19_17-35-58_img_1763595358409935_0009838828.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 218,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/9d4cd326-2025-11-18_2-11-50_img_1763453510279481_0007711703.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 219,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/bb00ecb9-2025-11-18_1-58-28_img_1763452708413289_0007699691.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 220,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/112bdf4a-2025-11-18_2-14-04_img_1763453644012765_0007713705.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 221,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/753cd3a8-2025-11-18_2-04-02_img_1763453042613080_0007704696.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 222,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ebbc3d7c-2025-11-19_1-58-11_img_1763539091149506_0008994985.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 223,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/44e931ae-2025-11-18_2-21-51_img_1763454111945742_0007720712.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 224,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/bad4eedc-2025-11-19_15-18-00_img_1763587080887331_0009714704.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 225,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/970fac29-2025-11-18_2-05-09_img_1763453109346470_0007705697.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 226,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/05e722b2-2025-11-18_1-36-13_img_1763451373480117_0007679671.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 227,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/c547c496-2025-11-19_18-04-53_img_1763597093674585_0009864854.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 228,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/9b8a4764-2025-11-18_0-48-23_img_1763448503014540_0007636628.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 229,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/bea83941-2025-11-19_10-32-07_img_1763569927243368_0009457447.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 230,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e328dbeb-2025-11-18_4-29-50_img_1763461790139782_0007835827.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 231,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/69a50f74-2025-11-18_5-41-03_img_1763466063201900_0007899891.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 232,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/9ed624ce-2025-11-18_2-15-10_img_1763453710879321_0007714706.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 233,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/7f305bf7-2025-11-19_13-15-39_img_1763579738963800_0009604594.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 234,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/286aa7d4-2025-11-18_0-50-36_img_1763448636481152_0007638630.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 235,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a0921848-2025-11-18_6-30-02_img_1763469001998404_0007943935.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 236,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e64f9272-2025-11-18_6-58-57_img_1763470737863392_0007969961.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 237,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8cd396ab-2025-11-18_0-46-09_img_1763448369481210_0007634626.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 238,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/93fff4f1-2025-11-18_0-18-21_img_1763446701015557_0007609601.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 239,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/c31945f7-2025-11-19_12-50-03_img_1763578203832345_0009581571.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 240,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2f359371-2025-11-19_11-37-44_img_1763573864705675_0009516506.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 241,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b33d6681-2025-11-18_4-20-56_img_1763461256006792_0007827819.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 242,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/4ad477f7-2025-11-18_3-39-46_img_1763458786475696_0007790782.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 243,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1a676ced-2025-11-18_1-37-20_img_1763451440213353_0007680672.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 244,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2713b848-2025-11-18_5-44-24_img_1763466264134977_0007902894.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 245,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a36a6e68-2025-11-18_13-10-34_img_1763493034637645_0008304295.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 246,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/14aad0ba-2025-11-19_12-43-23_img_1763577803432943_0009575565.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 247,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/9d4a5fd7-2025-11-18_0-40-35_img_1763448035814856_0007629621.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 248,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/aec59d80-2025-11-18_5-32-09_img_1763465529002499_0007891883.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 249,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b91395ca-2025-11-18_0-49-29_img_1763448569747859_0007637629.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 250,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/9378599c-2025-11-18_3-38-39_img_1763458719676067_0007789781.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 251,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/6f0fb1a7-2025-11-18_23-09-06_img_1763528946222846_0008842833.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 252,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e9baa7b5-2025-11-19_10-51-01_img_1763571061775015_0009474464.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 253,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a28741ee-2025-11-18_3-18-36_img_1763457516743340_0007771763.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 254,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f1d2cc89-2025-11-19_16-22-31_img_1763590951882264_0009772762.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 255,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/20d34d9c-2025-11-18_7-01-11_img_1763470871463102_0007971963.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 256,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/24b520d0-2025-11-19_10-03-12_img_1763568192045434_0009431421.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 257,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d44a9b20-2025-11-18_5-27-42_img_1763465262069619_0007887879.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 258,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/20ffcdc7-2025-11-18_3-44-13_img_1763459053542361_0007794786.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 259,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/9a5cf49c-2025-11-19_12-40-03_img_1763577603233228_0009572562.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 260,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/bee96599-2025-11-18_3-28-38_img_1763458118542913_0007780772.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 261,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f6555b56-2025-11-18_2-19-37_img_1763453977945849_0007718710.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 262,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f446b21f-2025-11-18_5-59-59_img_1763467199467512_0007916908.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 263,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/adb90069-2025-11-19_0-03-36_img_1763532216688710_0008891882.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 264,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b90a5664-2025-11-19_13-34-34_img_1763580874228882_0009621611.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 265,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/88d8e710-2025-11-18_3-53-07_img_1763459587674886_0007802794.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 266,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b8bd1599-2025-11-18_2-32-59_img_1763454779745143_0007730722.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 267,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ce984a34-2025-11-18_6-24-28_img_1763468668332329_0007938930.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 268,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/00f4473d-2025-11-18_6-01-06_img_1763467266200776_0007917909.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 269,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/af8c93fb-2025-11-19_1-41-30_img_1763538090150726_0008979970.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 270,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/94275d90-2025-11-18_6-38-55_img_1763469535864436_0007951943.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 271,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/7a19a095-2025-11-18_6-22-14_img_1763468534865887_0007936928.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 272,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/48320c5a-2025-11-18_0-27-14_img_1763447234881943_0007617609.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 273,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b88d17ce-2025-11-18_11-39-21_img_1763487561043890_0008222213.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 274,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/974e793b-2025-11-18_3-40-53_img_1763458853209047_0007791783.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 275,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/82e43eb8-2025-11-19_18-11-34_img_1763597494674082_0009870860.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 276,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/28751277-2025-11-18_0-23-54_img_1763447034682018_0007614606.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 277,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d28623e8-2025-11-18_3-24-11_img_1763457851009647_0007776768.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 278,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/c09c2232-2025-11-19_16-28-05_img_1763591285548552_0009777767.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 279,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/6ccff34b-2025-11-18_2-10-43_img_1763453443479549_0007710702.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 280,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/47ed69fb-2025-11-18_2-07-23_img_1763453243213009_0007707699.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 281,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/7bcdb97c-2025-11-18_15-11-49_img_1763500309695852_0008413404.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 282,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/83748873-2025-11-18_0-33-55_img_1763447635281695_0007623615.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 283,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/fd4e6ca2-2025-11-18_22-55-45_img_1763528145023356_0008830821.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 284,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/54848572-2025-11-18_2-02-55_img_1763452975679819_0007703695.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 285,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/665d23a1-2025-11-18_6-28-55_img_1763468935265428_0007942934.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 286,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/0fbf2e21-2025-11-18_1-52-54_img_1763452374480010_0007694686.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 287,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/19ea3f1f-2025-11-18_4-00-54_img_1763460054807994_0007809801.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 288,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1dd1eb70-2025-11-18_3-15-15_img_1763457315876857_0007768760.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 289,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/c9c6533a-2025-11-18_1-56-14_img_1763452574679915_0007697689.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 290,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/6c34857a-2025-11-18_6-12-14_img_1763467934266477_0007927919.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 291,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/36232a84-2025-11-18_23-11-19_img_1763529079689728_0008844835.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 292,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/38e0c778-2025-11-18_4-16-29_img_1763460989073595_0007823815.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 293,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/5e947cf5-2025-11-19_12-32-16_img_1763577136033553_0009565555.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 294,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/cf844dde-2025-11-18_6-52-16_img_1763470336930299_0007963955.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 295,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/0b3c9bcf-2025-11-19_11-53-19_img_1763574798970097_0009530520.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 296,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/cac49585-2025-11-18_23-20-13_img_1763529613556100_0008852843.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 297,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/7cf58fa4-2025-11-18_0-42-49_img_1763448169281290_0007631623.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 298,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/eeb849d8-2025-11-19_0-20-18_img_1763533218154801_0008906897.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 299,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/32e9a779-2025-11-19_19-13-52_img_1763601232670110_0009926916.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 300,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/0a17594e-2025-11-19_19-03-52_img_1763600632070772_0009917907.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 301,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/6fc0f11a-2025-11-18_17-53-07_img_1763509987551737_0008558549.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 302,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/0c02df91-2025-11-18_17-58-41_img_1763510321218082_0008563554.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 303,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/01716d82-2025-11-18_17-55-21_img_1763510121018297_0008560551.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 304,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/75dcbfd7-2025-11-19_18-34-56_img_1763598896872550_0009891881.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 305,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/0083cb0f-2025-11-19_1-33-43_img_1763537623017943_0008972963.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 306,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f94884b2-2025-11-18_17-54-14_img_1763510054284922_0008559550.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 307,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/843afaad-2025-11-18_17-03-04_img_1763506984354595_0008513504.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 308,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a88de1d4-2025-11-18_16-04-06_img_1763503446759510_0008460451.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 309,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d7029b46-2025-11-18_18-05-21_img_1763510721751135_0008569560.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 310,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d50f9bc1-2025-11-18_17-50-54_img_1763509854018660_0008556547.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 311,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/9bfea348-2025-11-18_17-06-24_img_1763507184554466_0008516507.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 312,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/511e68ab-2025-11-19_14-30-10_img_1763584210891466_0009671661.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 313,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/0b26c503-2025-11-19_10-08-45_img_1763568525845114_0009436426.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 314,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/357ecdda-2025-11-19_10-06-32_img_1763568392311808_0009434424.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 315,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/dc46638a-2025-11-19_19-04-58_img_1763600698803862_0009918908.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 316,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/90e44b40-2025-11-18_17-43-06_img_1763509386752502_0008549540.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 317,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1bc1e771-2025-11-19_19-02-45_img_1763600565337513_0009916906.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 318,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/fababa92-2025-11-18_16-51-57_img_1763506317022033_0008503494.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 319,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/fdc850e0-2025-11-18_18-00-54_img_1763510454685045_0008565556.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 320,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ca317f9f-2025-11-19_19-21-40_img_1763601700469666_0009933923.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 321,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b4401b99-2025-11-19_13-14-32_img_1763579672097177_0009603593.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 322,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e434c435-2025-11-19_19-18-20_img_1763601500069935_0009930920.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 323,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/9df2024c-2025-11-19_19-28-23_img_1763602103842273_0009939929.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 324,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d86e3aa6-2025-11-19_18-59-25_img_1763600365137594_0009913903.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 325,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/33f331bc-2025-11-19_17-28-11_img_1763594891277178_0009831821.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 326,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/c574b9a1-2025-11-18_18-04-14_img_1763510654884551_0008568559.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 327,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a1bb50a1-2025-11-18_17-56-27_img_1763510187752180_0008561552.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 328,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d8118561-2025-11-18_14-54-01_img_1763499241963892_0008397388.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 329,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1d86adf1-2025-11-19_13-01-11_img_1763578871164871_0009591581.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 330,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/49297df2-2025-11-18_17-44-13_img_1763509453485618_0008550541.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 331,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ed78ca83-2025-11-19_18-28-16_img_1763598496339750_0009885875.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 332,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b943319d-2025-11-19_19-06-05_img_1763600765537269_0009919909.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 333,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/4e454d55-2025-11-19_18-57-11_img_1763600231671215_0009911901.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 334,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/474e22cd-2025-11-19_16-55-54_img_1763592954346535_0009802792.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 335,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/bb798374-2025-11-18_17-20-52_img_1763508052086871_0008529520.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 336,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/709de5c6-2025-11-18_17-10-51_img_1763507451487285_0008520511.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 337,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/4c78f43a-2025-11-19_19-12-45_img_1763601165936821_0009925915.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 338,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3cb64746-2025-11-19_18-51-38_img_1763599898007870_0009906896.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 339,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/dc6cdf42-2025-11-19_18-54-58_img_1763600098204831_0009909899.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 340,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a4b51f85-2025-11-18_18-06-28_img_1763510788484673_0008570561.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 341,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1a137390-2025-11-19_19-22-47_img_1763601767202728_0009934924.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 342,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/a793ae7e-2025-11-18_17-31-59_img_1763508719419486_0008539530.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 343,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/dceef01d-2025-11-18_17-23-05_img_1763508185553489_0008531522.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 344,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/09601e65-2025-11-18_7-15-40_img_1763471740195310_0007984976.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 345,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8cae1359-2025-11-19_18-32-43_img_1763598763339368_0009889879.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 346,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/f0778ee4-2025-11-18_15-08-29_img_1763500109496192_0008410401.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 347,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/abc61447-2025-11-18_15-19-36_img_1763500776828784_0008420411.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 348,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/da56b673-2025-11-19_18-19-22_img_1763597962140249_0009877867.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 349,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d0bae269-2025-11-19_18-36-03_img_1763598963672619_0009892882.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 350,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ee9ca10a-2025-11-18_16-01-53_img_1763503313292169_0008458449.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 351,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/69a76dd9-2025-11-18_17-47-33_img_1763509653818657_0008553544.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 352,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/92be6cc4-2025-11-19_19-07-12_img_1763600832270343_0009920910.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 353,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8877528d-2025-11-19_19-08-19_img_1763600899003738_0009921911.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 354,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/356e7466-2025-11-19_16-36-59_img_1763591819414725_0009785775.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 355,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3ee747d2-2025-11-19_1-31-29_img_1763537489551401_0008970961.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 356,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1a7335ea-2025-11-18_17-30-52_img_1763508652686364_0008538529.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 357,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/52a9b373-2025-11-19_18-47-11_img_1763599631071913_0009902892.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 358,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/52b481b2-2025-11-19_19-11-39_img_1763601099203617_0009924914.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 359,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3a73aa63-2025-11-18_18-02-01_img_1763510521418005_0008566557.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 360,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8a6badce-2025-11-19_18-38-17_img_1763599097205856_0009894884.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 361,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/6898d13c-2025-11-19_18-58-18_img_1763600298404499_0009912902.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 362,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/9d91f06c-2025-11-19_18-21-35_img_1763598095806867_0009879869.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 363,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2d81ac16-2025-11-19_18-27-09_img_1763598429473103_0009884874.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 364,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/4b93b995-2025-11-18_17-07-31_img_1763507251287689_0008517508.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 365,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/e804eb1f-2025-11-18_17-39-46_img_1763509186552461_0008546537.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 366,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/427b0fbd-2025-11-19_1-35-56_img_1763537756484474_0008974965.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 367,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/6ff75cd3-2025-11-19_10-56-35_img_1763571395441240_0009479469.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 368,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/73b97fae-2025-11-18_17-00-50_img_1763506850887989_0008511502.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 369,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/2f8c30a8-2025-11-19_19-14-59_img_1763601299470099_0009927917.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 370,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/76197d85-2025-11-18_17-14-11_img_1763507651687208_0008523514.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 371,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/13d56efe-2025-11-19_10-13-12_img_1763568792777785_0009440430.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 372,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/4d571424-2025-11-18_17-27-32_img_1763508452486551_0008535526.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 373,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/0c35f882-2025-11-19_18-29-23_img_1763598563072901_0009886876.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 374,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ece0fce5-2025-11-19_1-30-22_img_1763537422751276_0008969960.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 375,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ccdf40e0-2025-11-19_13-45-41_img_1763581541561858_0009631621.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 376,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d295821e-2025-11-18_0-30-35_img_1763447435083724_0007620612.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 377,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8fd19010-2025-11-19_12-33-22_img_1763577202833793_0009566556.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 378,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/14af481d-2025-11-18_3-26-24_img_1763457984676466_0007778770.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 379,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b5052673-2025-11-18_23-23-33_img_1763529813756261_0008855846.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 380,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/72228721-2025-11-19_13-30-07_img_1763580607229444_0009617607.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 381,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/c727fce2-2025-11-18_1-49-34_img_1763452174280096_0007691683.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 382,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/582e0f50-2025-11-19_14-12-23_img_1763583143159235_0009655645.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 383,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3fb12ddf-2025-11-19_11-21-03_img_1763572863706004_0009501491.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 384,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/d71a6473-2025-11-18_3-13-02_img_1763457182276860_0007766758.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 385,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/91a31d7e-2025-11-19_12-07-47_img_1763575666969059_0009543533.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 386,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8eca7b26-2025-11-18_4-22-02_img_1763461322740107_0007828820.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 387,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ceb35b61-2025-11-18_6-51-10_img_1763470269997097_0007962954.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 388,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/7955ee7d-2025-11-18_5-19-54_img_1763464794936585_0007880872.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 389,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/7c2ac71c-2025-11-18_0-56-10_img_1763448970347610_0007643635.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 390,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/23e68d4f-2025-11-18_6-15-34_img_1763468134466351_0007930922.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 391,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/3517c487-2025-11-18_1-26-12_img_1763450772880308_0007670662.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 392,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/6115d4a2-2025-11-18_5-35-29_img_1763465729202375_0007894886.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 393,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/6103af53-2025-11-18_2-01-48_img_1763452908812955_0007702694.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 394,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/b743fd25-2025-11-18_5-22-08_img_1763464928403218_0007882874.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 395,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1fe24065-2025-11-18_2-17-24_img_1763453844412512_0007716708.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 396,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/7b0cc35c-2025-11-18_3-45-20_img_1763459120275662_0007795787.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 397,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/838796f8-2025-11-19_1-47-03_img_1763538423816947_0008984975.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 398,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/8b1438f4-2025-11-19_1-38-09_img_1763537889950858_0008976967.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 399,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/ac8af01f-2025-11-18_6-17-47_img_1763468267932920_0007932924.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 400,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1f7df323-2025-11-18_6-20-01_img_1763468401399329_0007934926.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 401,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/90b82e8d-2025-11-18_6-11-07_img_1763467867466734_0007926918.png"
+    },
+    {
+      "width": null,
+      "height": null,
+      "id": 402,
+      "file_name": "..\/..\/..\/..\/..\/..\/Users\/anirudhmanjesh\/Library\/Application Support\/label-studio\/media\/upload\/1\/1d71bfe4-2025-11-19_10-52-08_img_1763571128508218_0009475465.png"
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "Bacon Cheese"
+    },
+    {
+      "id": 1,
+      "name": "Cleaning"
+    },
+    {
+      "id": 2,
+      "name": "Nothing"
+    },
+    {
+      "id": 3,
+      "name": "Shredded Cheese"
+    },
+    {
+      "id": 4,
+      "name": "White Cubed"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 0,
+      "image_id": 1,
+      "category_id": 2,
+      "segmentation": [],
+      "bbox": [
+        336.0235640648011,
+        279.98821796759944,
+        399.9764359351989,
+        168.0117820324006
+      ],
+      "ignore": 0,
+      "iscrowd": 0,
+      "area": 67200.75377244108
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "description": "",
+    "contributor": "Label Studio",
+    "url": "",
+    "date_created": "2025-11-25 22:05:12.241804"
+  }
+}

@@ -1,0 +1,22 @@
+cat >> .gitignore << 'EOF'
+
+# Large data files
+*.zip
+*.tar.gz
+*.rar
+
+# Datasets
+data/
+datasets/
+images/
+annotations/
+
+# Models
+*.pth
+*.pt
+*.onnx
+*.h5
+
+# Label Studio exports
+project-*.zip
+EOF
