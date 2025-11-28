@@ -328,7 +328,8 @@ def generate_html_report(results: List[Dict], errors: List[Dict], accuracy: floa
 
     for error in errors:
         img_path = Path(error['image_path'])
-        rel_path = img_path.relative_to(images_dir) if img_path.is_absolute() else img_path
+        # Make path relative to HTML file location (results/)
+        rel_path = Path('..') / img_path.relative_to(Path.cwd()) if img_path.is_absolute() else Path('..') / img_path
         html_content += f"""
                     <tr>
                         <td class="image-cell">
@@ -364,7 +365,8 @@ def generate_html_report(results: List[Dict], errors: List[Dict], accuracy: floa
 
     for result in results:
         img_path = Path(result['image_path'])
-        rel_path = img_path.relative_to(images_dir) if img_path.is_absolute() else img_path
+        # Make path relative to HTML file location (results/)
+        rel_path = Path('..') / img_path.relative_to(Path.cwd()) if img_path.is_absolute() else Path('..') / img_path
         status_class = 'correct' if result['correct'] else 'incorrect'
         status_text = '✓ Correct' if result['correct'] else '✗ Wrong'
 
